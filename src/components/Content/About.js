@@ -3,7 +3,7 @@ import React from 'react';
 export const About = () => {
   return (
     <div className="about">
-      <h1>Обо мне</h1>
+      <h1 className="section-h1">Обо мне</h1>
       <p>
         Привет, меня зовут Кирилл и я начинающий веб-разработчик! Моя
         специализация это создание{' '}

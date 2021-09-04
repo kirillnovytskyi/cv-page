@@ -12,7 +12,7 @@ export const Header = () => {
             />
           </div>
           <div className="title">
-            <h1>Kirill Novytskyi | Front-End Developer</h1>
+            <h1>Kiril Novytskyi | Front-End Developer</h1>
           </div>
         </div>
       </div>

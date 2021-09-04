@@ -14,7 +14,7 @@ export const Skills = () => {
 
   return (
     <div className="skills">
-      <h1>Стек технологий</h1>
+      <h1 className="section-h1">Стек технологий</h1>
       <div className="stack">
         {stack.map(el => {
           return <Item src={el.src} level={el.level} key={el.id} />;

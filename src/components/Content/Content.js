@@ -1,5 +1,6 @@
 import React from 'react';
 import { About } from './About';
+import { Contacts } from './Contacts';
 import { Skills } from './Skills';
 
 export const Content = () => {
@@ -8,6 +9,7 @@ export const Content = () => {
       <div className="container">
         <About />
         <Skills />
+        <Contacts />
       </div>
     </div>
   );
