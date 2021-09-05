@@ -28,7 +28,7 @@ export const Contacts = () => {
       <h1 className="section-h1">Контакты</h1>
       <div className="links">
         {links.map(el => {
-          return <Link adress={el.adress} icon={el.icon} />;
+          return <Link key={el.id} adress={el.adress} icon={el.icon} />;
         })}
       </div>
     </div>
