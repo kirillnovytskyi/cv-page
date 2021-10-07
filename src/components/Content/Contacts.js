@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from './Link';
 
 export const Contacts = () => {
-  const [links, setLinks] = useState([
+  const links = [
     {
       id: 0,
       adress: 'https://www.facebook.com/kiril.novitskyi/',
@@ -21,7 +21,7 @@ export const Contacts = () => {
       icon: 'fab fa-telegram',
       contactFor: 'Telegram',
     },
-  ]);
+  ];
 
   return (
     <div className="contacts">

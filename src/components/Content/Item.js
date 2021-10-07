@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 export const Item = ({ src, level }) => {
   const colors = ['#ccc', '#ccc', '#ccc', '#ccc', '#ccc'];
